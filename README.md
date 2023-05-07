@@ -25,7 +25,24 @@ coffee 0.9    peanuts 1.5    beer   7.2    water   2.1
 Varna         Plovdiv        Sofia         Plovdiv
 2             1              6             3
 
-
+03.Example: Point in a Rectangle
+Checks whether point {x, y} is placed inside the rectangle {x1, y1} – {x2, y2}. The input data is read 
+from the console and consists of 6 lines: the decimal numbers x1, y1, x2, y2, x and y (as it is guaranteed 
+that x1 < x2 and y1 < y2).
+Sample Input and Output
+Input Output
+2     Inside
+-3
+12
+3
+8
+-1
+Solution
+A point is internal for a given polygon, if the following four conditions are applied at the same time:
+• The point is placed to the right from the left side of the rectangle.
+• The point is placed to the left from the right side of the rectangle.
+• The point is placed downwards from the upper side of the rectangle.
+• The point is placed upwards from the down side of the rectangle
 
 
 
