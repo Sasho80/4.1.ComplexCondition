@@ -30,8 +30,8 @@ Checks whether point {x, y} is placed inside the rectangle {x1, y1} – {x2, y2}
 from the console and consists of 6 lines: the decimal numbers x1, y1, x2, y2, x and y (as it is guaranteed 
 that x1 < x2 and y1 < y2).
 Sample Input and Output
-Input Output
-2     Inside
+Input Output  Visualization
+2     Inside  ![image](https://user-images.githubusercontent.com/7139995/236699500-0d2c82ac-f4b0-4c65-9256-00dd6b8f1232.png)
 -3
 12
 3
