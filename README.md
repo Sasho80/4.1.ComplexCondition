@@ -44,6 +44,14 @@ A point is internal for a given polygon, if the following four conditions are ap
 • The point is placed downwards from the upper side of the rectangle.
 • The point is placed upwards from the down side of the rectangle
 
+04.Example: Fruit or Vegetable
+Let's check whether a given product is a fruit or a vegetable.
+• The "fruits" are banana, apple, kiwi, cherry, lemon and grapes.
+• The "vegetables" are tomato, cucumber, pepper and carrot.
+• Everything else is "unknown".
+Sample Input and Output
+Input  Output Input  Output     Input Output
+banana fruit  tomato vegetable  java  unknown
 
 
 
