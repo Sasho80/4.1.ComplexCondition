@@ -59,3 +59,20 @@ Sample Input and Output
 Input Output  Input Output      Input Output
 75    invalid 150   (no output) 220   invalid
 
+06.Example: Point on a Rectangle Border
+Write a program that checks whether a point {x, y} is placed onto 
+any of the sides of a rectangle {x1, y1} – {x2, y2} (see the figure).
+The input data is read from the console and consists of 6 lines: 
+the decimal numbers x1, y1, x2, y2, x and y (as it is guaranteed 
+that x1 < x2 and y1 < y2). Print "Border" (if the point lies on any 
+of the sides) or "Inside / Outside" (in the opposite case).
+Sample Input and Output
+Input Output Input Output 
+2     Border 2     Inside / Outside
+-3          -3
+12           12
+3            3
+12           8
+-1          -1
+
+
