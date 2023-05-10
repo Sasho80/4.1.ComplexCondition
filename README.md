@@ -74,6 +74,7 @@ Input Output Input Output
 3            3
 12           8
 -1          -1
-![image](https://github.com/Sasho80/4.1.ComplexCondition/assets/7139995/f1a81f39-0fe0-4303-8d21-bcad77eb9b02)
+![image](https://github.com/Sasho80/4.1.ComplexCondition/assets/7139995/4e22282a-839c-42d6-aa56-62ac119d7e5a)
+
 
 
