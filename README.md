@@ -92,5 +92,11 @@ Write a program that reads from the console a fruit (banana / apple / …), a da
 the tables above. The result has to be printed rounded up to 2 digits after the decimal point. Print
 “error” if it is an invalid day of the week or an invalid name of a fruit.
 
+Sample Input and Output
+Input  Output Input  Output Input   Output Input Output 
+orange 2.70   kiwi   6.75   grapes  2.10   tomato error
+Sunday        Monday        Saturday       Monday
+3             2.5           0.5            0.5
+
 
 
