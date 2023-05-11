@@ -76,5 +76,21 @@ Input Output Input Output
 -1          -1
 ![image](https://github.com/Sasho80/4.1.ComplexCondition/assets/7139995/4e22282a-839c-42d6-aa56-62ac119d7e5a)
 
+Example: Fruit Shop
+A fruit shop sells fruits during weekdays and during weekends different prices:
+Fruit      Weekday price Weekend price 
+banana     2.50          2.70
+apple      1.20          1.25
+orange     0.85          0.90
+grapefruit 1.45          1.60
+kiwi       2.70          3.00
+pineapple  5.50          5.60
+grapes     3.85          4.20
+
+Write a program that reads from the console a fruit (banana / apple / …), a day of the week (Monday 
+/ Tuesday / …) and a quantity (a decimal number) and calculates the price according to the prices from 
+the tables above. The result has to be printed rounded up to 2 digits after the decimal point. Print
+“error” if it is an invalid day of the week or an invalid name of a fruit.
+
 
 
