@@ -98,5 +98,20 @@ orange 2.70   kiwi   6.75   grapes  2.10   tomato error
 Sunday        Monday        Saturday       Monday
 3             2.5           0.5            0.5
 
+08.Example: Trade Fees
+A company is giving the following commissions to its traders according to the city, in which they are 
+working and the volume of sales s:
+City    0 <= s <= 500 500 < s <= 1000  1000 < s <= 10000   s > 10000 
+Sofia   5%            7%               8%                  12%
+Varna   4.5%          7.5%             10%                 13%
+Plovdiv 5.5%          8%               12%                 14.5%
+Write a program that reads the name of a city (string) and the volume of sales (decimal number) and 
+calculates the rate of the commission fee. The result has to be shown rounded up to 2 digits after the 
+decimal point. When there is an invalid city or volume of sales (a negative number), print "error".
+Sample Input and Output
+Input  Output  Input   Output Input      Output 
+Sofia  120.00  Plovdiv 27.50  Kaspichan  error
+1500           499.99         -50
+
 
 
