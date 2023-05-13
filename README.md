@@ -113,5 +113,15 @@ Input  Output  Input   Output Input      Output
 Sofia  120.00  Plovdiv 27.50  Kaspichan  error
 1500           499.99         -50
 
+Example: Day of the Week
+Let's write a program that prints the day of the week (in English) depending 
+on given number (1 … 7) or "Error!" if an invalid input is given.
+Sample Input and Output
+A sample input and output are given in the table on the right.
+Input Output Input  Output Input  Output 
+1     Monday 7      Sunday -1     Error!
+
+
+
 
 
