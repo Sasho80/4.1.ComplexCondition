@@ -130,5 +130,26 @@ Sample Input and Output
 Input    Output  Input Input  Input    Input 
 tortoise reptile dog   mammal elephant unknown
 
-
+11.Problem: Cinema
+In a cinema hall the chairs are ordered in a rectangle shape in r rows and c columns. There are three 
+types of screenings with tickets of different prices:
+• Premiere – a premiere screening, with price 12.00 EUR.
+• Normal – a standard screening, with price 7.50 EUR.
+• Discount – a screening for children and students on a reduced price – 5.00 EUR.
+Write a program that enters a type of screening (string), number of rows and number of columns in 
+the hall (integer numbers) and calculates the total income from tickets from a full hall. The result has 
+to be printed in the same format as in the examples below – rounded up to 2 digits after the decimal 
+point.
+Sample Input and Output
+Input    Output  Input  Output 
+Premiere 1440.00 Normal 2047.50
+10               21
+12               13
+Hints and Guidelines
+While reading the input, we could convert the screening type into small letters (with the function
+ .lower()). We create and initialize a variable that will store the calculated income. In another 
+variable we calculate the full capacity of the hall. We use a switch-case conditional statement to 
+calculate the income according to the type of the projection and print the result on the console in the 
+given format (look for the needed Python functionality on the internet). Sample code (parts of the code 
+are blurred with the purpose to stimulate your thinking and problem-solving skills)
 
