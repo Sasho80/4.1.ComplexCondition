@@ -175,6 +175,36 @@ leap  45     normal 38     normal 44     leap  41
 5            3             11            0
 2            2             6             1
 
+13.Problem: * Point in the Figure
+The figure consists of 6 blocks with size h * h, placed as in the figure 
+below. The lower left angle of the building is on position {0, 0}. The upper 
+right angle of the figure is on position {2*h, 4*h}. The coordinates given 
+in the figure are for h = 2 (see the figure on the right).
+Write a program that enters an integer h and the coordinates of a given
+point {x, y} (integers) and prints whether the point is inside the figure 
+(inside), outside of the figure (outside) or on any of the borders of the 
+figure (border).
+![image](https://github.com/Sasho80/4.1.ComplexCondition/assets/7139995/5aa84a73-7654-443f-93d6-29487fa7b8d6)
+Sample Input and Output
+Input Output  Input Output Input Output Input Output 
+2     outside 2     inside 2     border 2     border
+3             3            2            6 
+10            1            2            0    
+
+Input Output  Input Output  Input Output Input Output 
+2     outside 15    outside 15    inside 15    outside
+0             13            29           37
+6             55            37           18
+
+Hints and Guidelines
+A possible logic for solving the task (not the only correct one):
+• We might split the figure into two rectangles with a common side:
+• A point is outer (outside) for the figure, when it is outside both of 
+the rectangles.
+• A point is inner (inside) for the figure, if it is inside one of the 
+rectangles (excluding their borders) or lies on their common side.
+• In other case the point lies on the border of the rectangle (border).
+![image](https://github.com/Sasho80/4.1.ComplexCondition/assets/7139995/de0fcc1b-9db1-48b0-92dd-5e8c6227ff9c)
 
 
 
